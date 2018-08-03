@@ -9,7 +9,8 @@ public class DemoMain {
         System.out.println("hello");
         CarDaoService carDaoService = new CarDaoService();
         carDaoService.driver(new Car("宝马","BLACK",245655.23f));
-    }
 
+        System.out.println("dddd");
+    }
 
 }
